@@ -23,7 +23,7 @@
 			"step": "installTheme",
 			"themeData": {
 				"resource": "url",
-				"url": "https://github-proxy.com/proxy/?repo=georgestephanis/izzi"
+				"url": "https://github-proxy.com/proxy/?repo=weareiconick/izzi"
 			},
 			"options": {
 				"activate": true
