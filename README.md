@@ -1,8 +1,8 @@
 # izzi
 
-A theme for (Izzi’s Gym)[https://izzisgym.com/]
+A theme for [Izzi’s Gym](https://izzisgym.com/)
 
-Based on (Tekina)[https://tekina.framer.photos/] by (Khurram Shahzad)[https://designbykhurram.framer.ai/en/]
+Based on [Tekina](https://tekina.framer.photos/) by [Khurram Shahzad](https://designbykhurram.framer.ai/en/)
 
 # Testing
 
