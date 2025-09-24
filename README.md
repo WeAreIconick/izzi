@@ -1,7 +1,7 @@
-# EXAMPLE_REPO_NAME
+# izzi
 
-EXAMPLE_REPO_DESCRIPTION
+A theme for Izzi’s Gym
 
 # Testing
 
-[Test it out on Playground](EXAMPLE_REPO_PLAYGROUND_URL)
+[Test it out on Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/WeAreIconick/izzi/refs/heads/main/_playground/blueprint.json)
