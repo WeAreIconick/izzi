@@ -13,6 +13,27 @@ Requires PHP: 8.2
 */
 .wp-block-navigation .wp-block-navigation__responsive-container-open svg {
   width: 40px;
+  height: 40px;
+}
+.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-close svg {
+  width: 40px;
+  height: 40px;
+}
+.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container {
+  display: block;
+  width: 100%;
+}
+.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container > .wp-block-navigation-item {
+  font-family: var(--wp--preset--font-family--dm-mono);
+  font-size: var(--wp--preset--font-size--xx-large);
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
+}
+.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container > .wp-block-navigation-item:hover {
+  opacity: 1;
+}
+.wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container:hover > .wp-block-navigation-item:not(:hover) {
+  opacity: 0.3;
 }
 
 /*# sourceMappingURL=style.css.map */

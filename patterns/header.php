@@ -9,7 +9,7 @@
 <div class="wp-block-group has-pale-blue-background-color has-background" style="border-bottom-width:2px"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"30px","top":"30px"}}},"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
 <div class="wp-block-group alignwide" style="padding-top:30px;padding-bottom:30px"><!-- wp:site-title /-->
 
-<!-- wp:navigation {"overlayMenu":"always","style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right","orientation":"horizontal"}} /-->
+<!-- wp:navigation {"overlayMenu":"always","style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"left","orientation":"horizontal"}} /-->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","buttonPosition":"button-only","buttonUseIcon":true,"isSearchFieldHidden":true} /-->
