@@ -6,21 +6,29 @@
  */
 ?>
 <!-- wp:group {"style":{"border":{"bottom":{"width":"2px"}}},"backgroundColor":"pale-blue","layout":{"type":"constrained","contentSize":""}} -->
-<div class="wp-block-group has-pale-blue-background-color has-background" style="border-bottom-width:2px"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"30px","top":"30px"}}},"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
-<div class="wp-block-group alignwide" style="padding-top:30px;padding-bottom:30px"><!-- wp:site-title /-->
+<div class="wp-block-group has-pale-blue-background-color has-background" style="border-bottom-width:2px"><!-- wp:columns {"verticalAlignment":null} -->
+<div class="wp-block-columns"><!-- wp:column {"verticalAlignment":"center","width":"33.34%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.34%"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"30px","top":"30px"}}},"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
+<div class="wp-block-group alignwide" style="padding-top:30px;padding-bottom:30px"><!-- wp:site-title /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
 
-<!-- wp:navigation {"overlayMenu":"always","style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"left","orientation":"horizontal"}} /-->
+<!-- wp:column {"verticalAlignment":"center","width":"33.34%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.34%"><!-- wp:navigation {"overlayMenu":"always","style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"center","orientation":"horizontal"}} /--></div>
+<!-- /wp:column -->
 
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","buttonPosition":"button-only","buttonUseIcon":true,"isSearchFieldHidden":true} /-->
+<!-- wp:column {"verticalAlignment":"center","width":"33.33%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:33.33%"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
+<div class="wp-block-group"><!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","buttonPosition":"button-only","buttonUseIcon":true,"isSearchFieldHidden":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|black"}}},"color":{"background":"#ffffff00"},"layout":{"selfStretch":"fit","flexSize":null}},"textColor":"black"} /-->
 
-<!-- wp:buttons -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
 <div class="wp-block-buttons"><!-- wp:button -->
 <div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Visit Shop', 'izzi');?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
 <!-- /wp:group -->
 
 <!-- wp:spacer {"height":"50px"} -->

@@ -5,11 +5,18 @@
 			width: 40px;
 			height: 40px;
 		}
+		outline: none;
 	}
 
 	.wp-block-navigation__responsive-container.is-menu-open {
+		background: var(--wp--preset--color--black) !important;
+		color: var(--wp--preset--color--white) !important;
 
 		.wp-block-navigation__responsive-container-close {
+			position: static;
+			display: block;
+			margin: 0 auto;
+
 			svg {
 				width: 40px;
 				height: 40px;
