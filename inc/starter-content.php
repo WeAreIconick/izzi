@@ -87,7 +87,7 @@ function get_starter_content() {
 					'link_email',
 					'link_github' => array(
 						'title' => esc_html_x( 'Izzi', 'Theme starter content', 'izzi' ),
-						'url'   => 'https://github.com/georgestephanis/izzi/',
+						'url'   => 'https://github.com/weareiconick/izzi/',
 					),
 				),
 			),

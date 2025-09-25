@@ -12,9 +12,9 @@
         "theme"
     ],
     "prettier": "@wordpress/prettier-config",
-    "homepage": "https://github.com/georgestephanis/izzi",
-    "repository": "https://github.com/georgestephanis/izzi",
-    "bugs": "https://github.com/georgestephanis/izzi/issues",
+    "homepage": "https://github.com/weareiconick/izzi",
+    "repository": "https://github.com/weareiconick/izzi",
+    "bugs": "https://github.com/weareiconick/izzi/issues",
     "private": false,
     "engines": {
         "node": ">=20.0",
