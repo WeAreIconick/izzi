@@ -9,6 +9,8 @@
 
 namespace Izzi\Functions;
 
+include( get_theme_file_path( 'src/search-dialog.php' ) );
+
 /**
  * Set up any theme supports we may need, and starter content.
  */

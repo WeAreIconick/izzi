@@ -11,12 +11,12 @@ Text Domain:  izzi
 Domain Path:  /languages
 Requires PHP: 8.2
 */
-.wp-block-navigation .wp-block-navigation__responsive-container-open {
-  outline: none;
-}
 .wp-block-navigation .wp-block-navigation__responsive-container-open svg {
   width: 40px;
   height: 40px;
+}
+.wp-block-navigation .wp-block-navigation__responsive-container-open {
+  outline: none;
 }
 .wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open {
   background: var(--wp--preset--color--black) !important;
@@ -46,6 +46,50 @@ Requires PHP: 8.2
 }
 .wp-block-navigation .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container:hover > .wp-block-navigation-item:not(:hover) {
   opacity: 0.3;
+}
+
+.wp-block-search.wp-block-search__button-only.search_dialog__trigger .wp-block-search__inside-wrapper {
+  transition-delay: 0.1s;
+}
+.wp-block-search.wp-block-search__button-only.search_dialog__trigger .wp-block-search__input {
+  display: none;
+}
+
+dialog#search_dialog {
+  border-radius: 1em;
+  border-width: 0;
+  width: 500px;
+}
+dialog#search_dialog::before {
+  content: "\f179";
+  display: inline;
+  vertical-align: baseline;
+  font-family: "dashicons";
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+dialog#search_dialog form {
+  display: inline;
+}
+dialog#search_dialog .search-submit {
+  display: none;
+}
+dialog#search_dialog .search-field {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-weight: 400;
+  height: 2rem;
+  padding: 0;
+  width: calc(100% - 3rem);
+  line-height: 2em;
+  vertical-align: middle;
+  font-size: 2rem;
+  font-family: var(--wp--preset--font-family--dm-mono);
+}
+dialog#search_dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.6666666667);
 }
 
 /*# sourceMappingURL=style.css.map */

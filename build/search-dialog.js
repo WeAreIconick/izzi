@@ -1,0 +1,1 @@
+(()=>{"use strict";window.wp.i18n,document.querySelectorAll(".search_dialog__trigger").forEach(e=>{e.addEventListener("click",e=>{window.search_dialog.showModal()})})})();
