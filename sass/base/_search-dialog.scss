@@ -10,18 +10,24 @@
 }
 
 dialog#search_dialog {
+	box-sizing: content-box;
 	border-radius: 1em;
 	border-width: 0;
 	width: 500px;
+	padding: 1rem;
+	height: 2.25rem;
 
 	&::before {
 		content: "\f179";
 		display: inline;
 		vertical-align: baseline;
 		font-family: "dashicons";
-		font-size: 2rem;
+		font-size: 1.75rem;
 		width: 2rem;
-		height: 2rem;
+		height: 1.5rem;
+		position: absolute;
+		left: 1rem;
+		top: 1rem;
 	}
 	form {
 		display: inline;
@@ -36,6 +42,7 @@ dialog#search_dialog {
 		font-weight: 400;
 		height: 2rem;
 		padding: 0;
+		margin-left: 3rem;
 		width: calc( 100% - 3rem );
 		line-height: 2em;
 		vertical-align: middle;

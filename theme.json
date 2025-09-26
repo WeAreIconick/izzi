@@ -58,6 +58,7 @@
 			"wideSize": "1480px"
 		},
 		"spacing": {
+			"blockGap": null,
 			"units": [
 				"%",
 				"px",
@@ -355,6 +356,38 @@
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
+		"blocks": {
+			"core/columns": {
+				"spacing": {
+					"margin": {
+						"bottom": "0"
+					}
+				}
+			},
+			"core/details": {
+				"border": {
+					"bottom": {
+						"style": "solid",
+						"width": "2px"
+					},
+					"color": null,
+					"style": null,
+					"width": null
+				},
+				"css": "",
+				"spacing": {
+					"margin": {
+						"top": "0"
+					},
+					"padding": {
+						"bottom": "var(--wp--preset--spacing--30)",
+						"left": "var(--wp--preset--spacing--50)",
+						"right": "var(--wp--preset--spacing--50)",
+						"top": "var(--wp--preset--spacing--30)"
+					}
+				}
+			}
+		},
 		"elements": {
 			"heading": {
 				"typography": {
