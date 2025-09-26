@@ -27,7 +27,8 @@
 				display: block;
 				width: 100%;
 
-				> .wp-block-navigation-item {
+				> .wp-block-navigation-item,
+				> .wp-block-page-list > .wp-block-navigation-item {
 					font-family: var(--wp--preset--font-family--dm-mono);
 					font-size: var(--wp--preset--font-size--xx-large);
 					transition: opacity 0.3s ease-in-out;
@@ -37,7 +38,7 @@
 						opacity: 1;
 					}
 				}
-				&:hover > .wp-block-navigation-item:not(:hover) {
+				&:hover .wp-block-navigation-item:not(:hover) {
 					opacity: 0.3;
 				}
 			}
