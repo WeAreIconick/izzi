@@ -297,7 +297,9 @@
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--dm-mono)"
+					"fontFamily": "var(--wp--preset--font-family--dm-mono)",
+					"fontStyle": "normal",
+					"fontWeight": "500"
 				}
 			}
 		},
