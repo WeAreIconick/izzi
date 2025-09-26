@@ -44,3 +44,18 @@
 		}
 	}
 }
+
+.wp-block-buttons {
+	.wp-block-button {
+		.wp-element-button {
+			transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+			transition-delay: 0.2s;
+
+			&:hover {
+				transition-delay: 0s;
+				background: transparent;
+				color: var(--wp--preset--color--black);
+			}
+		}
+	}
+}

@@ -48,6 +48,16 @@ Requires PHP: 8.2
   opacity: 0.3;
 }
 
+.wp-block-buttons .wp-block-button .wp-element-button {
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition-delay: 0.2s;
+}
+.wp-block-buttons .wp-block-button .wp-element-button:hover {
+  transition-delay: 0s;
+  background: transparent;
+  color: var(--wp--preset--color--black);
+}
+
 .wp-block-search.wp-block-search__button-only.search_dialog__trigger .wp-block-search__inside-wrapper {
   transition-delay: 0.1s;
 }
